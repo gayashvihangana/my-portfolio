@@ -20,13 +20,22 @@
           class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
         >
           <a
-            href="/"
+            href="#"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
           >
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap"></use>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-door-open-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15zM11 2h.5a.5.5 0 0 1 .5.5V15h-1zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1"
+              />
             </svg>
-            <span class="fs-3">Gayash Vihangana</span>
+            <!-- <span class="fs-3">Gayash Vihangana</span> -->
           </a>
 
           <ul class="nav nav-pills">
@@ -48,24 +57,26 @@
     </div>
 
     <div id="about" class="hero container">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="container col-10 col-sm-8 col-lg-6">
+      <div class="row flex-lg-row-reverse g-5 py-5 justify-content-center">
+        <div class="col-xs-8 col-sm-6 col-md-5 col-lg-4">
           <img
             src="./assets/profile.jpg"
-            class="profile-img d-block mx-lg-auto img-fluid mt-4"
+            class="profile-img mx-lg-auto img-fluid mt-4"
             alt="Bootstrap Themes"
             width="700"
             height="500"
             loading="lazy"
           />
         </div>
-        <div class="col-lg-6">
-          <p class="h4 mb-4">Hello, I'm</p>
-          <h1 class="fw-bold text-body-emphasis lh-1 mb-3">
+        <div class="col-lg-6 text-center">
+          <p class="fs-6 mb-4">Hello, I'm</p>
+          <h1
+            class="text-center display-1 fw-bold text-body-emphasis lh-1 mb-3"
+          >
             GAYASH <br />
             VIHANGANA
           </h1>
-          <p class="job mt-4">Full-Stack Developer</p>
+          <p class="job mt-4 fs-3 fw-bold">Full-Stack Developer</p>
           <div class="mt-5 text-center">
             <a href="./assets/gayash-vihangana-cv.pdf">
               <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
